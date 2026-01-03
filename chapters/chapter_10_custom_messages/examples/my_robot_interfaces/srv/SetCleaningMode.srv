@@ -1,0 +1,10 @@
+# SetCleaningMode.srv - Change cleaning mode
+
+# Request
+string mode  # "normal", "turbo", "quiet"
+
+---
+
+# Response
+bool success
+string message

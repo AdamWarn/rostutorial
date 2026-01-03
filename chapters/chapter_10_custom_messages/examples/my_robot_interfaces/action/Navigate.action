@@ -1,0 +1,19 @@
+# Navigate.action - Navigate to goal position
+
+# Goal
+float32 target_x
+float32 target_y
+float32 target_yaw
+
+---
+
+# Result
+bool success
+float32 final_distance_error
+float32 time_elapsed
+
+---
+
+# Feedback
+float32 distance_remaining
+float32 estimated_time_remaining

@@ -1,0 +1,15 @@
+# Configuration for parameterized talker node
+
+talker:
+  ros__parameters:
+    # Text to publish
+    message_text: "Hello from YAML configuration!"
+    
+    # Publishing rate in Hz
+    publish_rate: 2.0
+    
+    # Topic name
+    topic_name: "chatter"
+    
+    # Use simulation time (for Gazebo)
+    use_sim_time: false
