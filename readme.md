@@ -43,6 +43,32 @@ Each chapter contains:
 
 ---
 
+## 🧪 Automated Testing
+
+**Test your progress with automated verification:**
+
+```bash
+# Run all chapter tests
+python3 run_tests.py
+
+# Test specific chapters
+python3 run_tests.py 1 3 5
+
+# Verbose output
+python3 run_tests.py --verbose
+```
+
+**10 chapters have automated tests** covering:
+- Environment setup validation
+- Code compilation and syntax
+- Node functionality
+- Package structure
+- URDF/launch file validity
+
+See [TESTING_GUIDE.md](TESTING_GUIDE.md) for complete testing documentation.
+
+---
+
 ## 🗺️ Chapter Roadmap
 
 ### **Part 1: ROS2 Fundamentals (Chapters 1-5)**
